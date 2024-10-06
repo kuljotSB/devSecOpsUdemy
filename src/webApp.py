@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from src import chatCompletionsAPI
+
 
 app = Flask(__name__)
 
