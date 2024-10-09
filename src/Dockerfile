@@ -1,5 +1,5 @@
 # use an official python runtime as a parent image
-FROM winamd64/python:3
+FROM python:3.9-slim
 
 #set the working directory in the container
 WORKDIR /app
